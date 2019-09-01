@@ -1,0 +1,2 @@
+class UserMeetupFavsController < ApplicationController
+end

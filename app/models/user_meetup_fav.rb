@@ -1,0 +1,2 @@
+class UserMeetupFav < ApplicationRecord
+end
