@@ -1,0 +1,3 @@
+class ApplicationSerializer < ApplicationController
+  
+end

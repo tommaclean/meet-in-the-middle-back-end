@@ -1,7 +1,42 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+user1 = User.create(username: "tom", address: "81 Prospect St., Brooklyn NY", password: "123")
+user2 = User.create(username: "Avi", address: "131-0-131-98 90th St, Ozone Park, NY 11417", password: "123")
+user3 = User.create(username: "Carla", address: "79 Dean St, Brooklyn, NY 11201", password: "123")
+user4 = User.create(username: "Angelo", address: "132 Cornelia St, Brooklyn, NY 11221", password: "123")
+user5 = User.create(username: "Mazen", address: "498 16th St, Union City, NJ 07087", password: "123")
+user6 = User.create(username: "Megan", address: "197 Engert Ave, Brooklyn, NY 11221", password: "123")
+user7 = User.create(username: "Kevy", address: "267 13th St, Brooklyn, NY 11215", password: "123")
+user8 = User.create(username: "EricKim", address: "66-99-66-1 172nd St, Fresh Meadows, NY 11365", password: "123")
+user9 = User.create(username: "Gracie", address: "1410 Greene Ave, Brooklyn, NY 11237", password: "123")
+
+
+# meetup1 = Meetup.create(user_id: user1.id, name: "Barcade", vicinity: "388 Union Avenue, Brooklyn")
+# meetup2 = Meetup.create(user_id: user1.id, name: "Santos Anne", vicinity: "366 Union Avenue, Brooklyn")
+# meetup3 = Meetup.create(user_id: user1.id, name: "Huckleberry Bar", vicinity: "588 Grand Street, Brooklyn")
+# meetup4 = Meetup.create(user_id: user1.id, name: "Duff's", vicinity: "168 Marcy Avenue, Brooklyn")
+# meetup5 = Meetup.create(user_id: user1.id, name: "Trophy Bar", vicinity: "351 Broadway, Brooklyn")
+# meetup6 = Meetup.create(user_id: user1.id, name: "Bizzare", vicinity: "12 Jefferson Street, Brooklyn")
+# meetup7 = Meetup.create(user_id: user1.id, name: "Bushwick Country Club", vicinity: "618 Grand Street, Brooklyn")
+# meetup8 = Meetup.create(user_id: user1.id, name: "4th Down Sports Bar", vicinity: "750 Grand Street, Brooklyn")
+# meetup9 = Meetup.create(user_id: user1.id, name: "Metropolitan", vicinity: "559 Lorimer Street, Brooklyn")
+# meetup10 = Meetup.create(user_id: user1.id, name: "SKYTOWN", vicinity: "921 Broadway, Brooklyn")
+
+
+# usermeetup1 = UserMeetup.create(user_id: user1.id, participant1_id: user2.id, participant2_id: user3.id, meetup_id: meetup1.id)
+# usermeetup2 = UserMeetup.create(user_id: user1.id, participant1_id: user7.id, participant2_id: user3.id, meetup_id: meetup2.id)
+# usermeetup3 = UserMeetup.create(user_id: user1.id, participant1_id: user4.id, participant2_id: user3.id, meetup_id: meetup3.id)
+# usermeetup4 = UserMeetup.create(user_id: user1.id, participant1_id: user5.id, participant2_id: user3.id, meetup_id: meetup4.id)
+# usermeetup5 = UserMeetup.create(user_id: user1.id, participant1_id: user6.id, participant2_id: user3.id, meetup_id: meetup5.id)
+# usermeetup6 = UserMeetup.create(user_id: user1.id, participant1_id: user7.id, participant2_id: user3.id, meetup_id: meetup6.id)
+# usermeetup7 = UserMeetup.create(user_id: user6.id, participant1_id: user8.id, participant2_id: user3.id, meetup_id: meetup7.id)
+# usermeetup8 = UserMeetup.create(user_id: user7.id, participant1_id: user9.id, participant2_id: user3.id, meetup_id: meetup8.id)
+# usermeetup9 = UserMeetup.create(user_id: user1.id, participant1_id: user4.id, participant2_id: user3.id, meetup_id: meetup9.id)
+# usermeetup10 = UserMeetup.create(user_id: user1.id, participant1_id: user7.id, participant2_id: user3.id, meetup_id: meetup10.id)
+
+
+
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup1.id)
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup2.id)
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup3.id)
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup4.id)
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup5.id)
+# UserMeetupFav.create(user_id: user1.id, user_meetup_id: usermeetup6.id)
