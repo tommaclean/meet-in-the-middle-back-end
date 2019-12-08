@@ -21,7 +21,8 @@ class UserMeetupFavsController < ApplicationController
   end
 
   def delete
-    @usermeetupfav = UserMeetupFav.find(params[:id])
+    @usermeetupfav = UserMeetupFav.find_by(user_meetup_fav_params)
+    # byebug
     @usermeetupfav.destroy
   end
 
@@ -29,6 +30,10 @@ class UserMeetupFavsController < ApplicationController
 
   def user_meetup_fav_params
     params.permit(:user_id, :user_meetup_id)
+  end
+
+  def user_meetup_fav_id
+    params.permit(:user_meetup_fav_id)
   end
 
 end

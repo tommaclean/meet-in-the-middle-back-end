@@ -1,4 +1,4 @@
-user1 = User.create(username: "tom", address: "81 Prospect St., Brooklyn NY", password: "123")
+user1 = User.create(username: "Tom", address: "81 Prospect St., Brooklyn NY", password: "123")
 user2 = User.create(username: "Avi", address: "131-0-131-98 90th St, Ozone Park, NY 11417", password: "123")
 user3 = User.create(username: "Carla", address: "79 Dean St, Brooklyn, NY 11201", password: "123")
 user4 = User.create(username: "Angelo", address: "132 Cornelia St, Brooklyn, NY 11221", password: "123")
@@ -7,7 +7,9 @@ user6 = User.create(username: "Megan", address: "197 Engert Ave, Brooklyn, NY 11
 user7 = User.create(username: "Kevy", address: "267 13th St, Brooklyn, NY 11215", password: "123")
 user8 = User.create(username: "EricKim", address: "66-99-66-1 172nd St, Fresh Meadows, NY 11365", password: "123")
 user9 = User.create(username: "Gracie", address: "1410 Greene Ave, Brooklyn, NY 11237", password: "123")
-
+user10 = User.create(username: "Colin", address: "182 Malcolm X Blvd, Brooklyn, NY 11221", password: "123")
+user11 = User.create(username: "Nicky", address: "165 W 91st St, New York, NY 10024", password: "123")
+user11 = User.create(username: "Rachel", address: "220 Plymouth St, Brooklyn, NY", password: "123")
 
 # meetup1 = Meetup.create(user_id: user1.id, name: "Barcade", vicinity: "388 Union Avenue, Brooklyn")
 # meetup2 = Meetup.create(user_id: user1.id, name: "Santos Anne", vicinity: "366 Union Avenue, Brooklyn")
