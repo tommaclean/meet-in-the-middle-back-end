@@ -22,7 +22,6 @@ class UserMeetupFavsController < ApplicationController
 
   def delete
     @usermeetupfav = UserMeetupFav.find_by(user_meetup_fav_params)
-    # byebug
     @usermeetupfav.destroy
   end
 
