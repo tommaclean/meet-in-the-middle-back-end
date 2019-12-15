@@ -1,8 +1,8 @@
 class AuthController < ApplicationController
+  skip_before_action :verify_authenticity_token
   def create
     user = User.find_by(username: params[:username])
     is_authenticated = user.authenticate(params[:password]) if user
-    skip_before_action :verify_authenticity_token
     if is_authenticated
       # byebug
       render json: { token: encode_token(user) }
