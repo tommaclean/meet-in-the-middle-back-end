@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   resources :user_meetup_favs
   resources :meetups
   resources :user_meetups
