@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  get 'home/index'
   resources :user_meetup_favs
   resources :meetups
   resources :user_meetups
   resources :users
 
-  root 'home#index'
+  get '/', to: 'home/index'
   post '/login', to: 'auth#create'
   post '/signup', to: 'users#create'
   get '/profile', to: 'users#profile'
