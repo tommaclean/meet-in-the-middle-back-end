@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :meetups
   resources :user_meetups
   resources :users
-  
+
   root 'home#index'
   post '/login', to: 'auth#create'
   post '/signup', to: 'users#create'
@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   delete '/single_user/meetup_favs', to: 'user_meetup_favs#delete'
   get '/single_user/meetup_favs', to: 'user_meetup_favs#favs'
   post '/single_user/add_meetup_fav', to: 'user_meetup_favs#create'
-
+ 
 end
