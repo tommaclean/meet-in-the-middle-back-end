@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :user_meetups
   resources :users
 
-  get '/', to: 'users#index'
+  get '/', to: 'home#index'
   post '/login', to: 'auth#create'
   post '/signup', to: 'users#create'
   get '/profile', to: 'users#profile'
