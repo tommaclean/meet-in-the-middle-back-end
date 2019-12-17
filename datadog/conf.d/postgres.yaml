@@ -1,0 +1,9 @@
+init_config:
+
+instances:
+  - host: ec2-54-235-96-48.compute-1.amazonaws.com
+    port: 5432
+    username: tom.j.maclean@gmail.com
+    password: 1e0ef37a0c64c830b7e83ebefd8adc944a98686d4cb861827fd6bbd0a0a455a1
+    dbname: meet-in-the-middle-back-end_development
+    ssl: True
