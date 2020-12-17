@@ -1,5 +1,5 @@
 <img src="https://i.imgur.com/BqXmkN4.png" />
-<img src="https://i.imgur.com/6sT247n.gif" />
+<img src="https://i.imgur.com/3FGnwzo.gif" />
 
 # Welcome
 
