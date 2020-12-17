@@ -1,4 +1,5 @@
 <img src="https://i.imgur.com/BqXmkN4.png" />
+<img src="https://i.imgur.com/6sT247n.gif" />
 
 # Welcome
 
@@ -15,7 +16,7 @@ https://github.com/tommaclean/meet-in-the-middle-front-end
 4. CD into the meet-in-the-middle-front-end repo
 5. Start NPM server by running `npm start`
 6. When the dialog appears to ask to run on port 3001 (or any different port than 3000), press 'Y'
-7. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+7. Open [http://localhost:3001](http://localhost:3001) (or whichever port you've specified) to view it in the browser.
 
 
 
