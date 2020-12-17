@@ -18,5 +18,16 @@ https://github.com/tommaclean/meet-in-the-middle-front-end
 6. When the dialog appears to ask to run on port 3001 (or any different port than 3000), press 'Y'
 7. Open [http://localhost:3001](http://localhost:3001) (or whichever port you've specified) to view it in the browser.
 
+## Coming Soon!
+
+MeetInTheMiddle v2 is currently being devloped. Check out what's happening here: 
+
+Frontend:
+https://github.com/tommaclean/meet-in-the-middle-v2
+
+Backend:
+https://github.com/tommaclean/meet-in-the-middle-api-v2
+
+V1 was created while I was attending Flatiron School. After learning more since graduation, I am revamping everything using Redux and CSS. 
 
 
